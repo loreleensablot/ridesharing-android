@@ -22,6 +22,7 @@
     <string name="my_location">My location</string>
     <string name="cancel">Cancel</string>
     <string name="accept_ride">Accept ride</string>
+    <string name="accept_patient">Accept patient</string>
     <string name="call">Call</string>
     <string name="finding_drivers">Connecting you to the nearest driver</string>
     <string name="order_was_cancelled">Order was cancelled</string>
