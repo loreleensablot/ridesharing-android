@@ -30,19 +30,19 @@ android {
             dimension "version"
             applicationIdSuffix ".android.github"
             versionNameSuffix ""
-            resValue "string", "app_name", "Ridesharing"
+            resValue "string", "app_name", "Project DEAMRO"
         }
         driver {
             dimension "version"
             applicationIdSuffix ".driver.android.github"
             versionNameSuffix "-driver"
-            resValue "string", "app_name", "Ridesharing Driver"
+            resValue "string", "app_name", "Project DEAMRO Driver"
         }
         rider {
             dimension "version"
             applicationIdSuffix ".rider.android.github"
             versionNameSuffix "-rider"
-            resValue "string", "app_name", "Ridesharing Rider"
+            resValue "string", "app_name", "Project DEAMRO Patient"
         }
     }
 }
@@ -60,13 +60,13 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'com.google.firebase:firebase-firestore:21.3.0'
+    implementation 'com.google.firebase:firebase-firestore:21.4.0'
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
     implementation 'com.google.maps.android:android-maps-utils:0.6.2'
-    implementation 'com.google.android.libraries.places:places:2.1.0'
+    implementation 'com.google.android.libraries.places:places:2.2.0'
 
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
     implementation 'com.daimajia.easing:library:2.0@aar'
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
 
@@ -81,7 +81,7 @@ dependencies {
     implementation 'com.hypertrack:hypertrack-views:0.6.0'
     implementation 'com.hypertrack:maps-google:0.1.1'
 
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }

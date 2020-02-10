@@ -43,4 +43,6 @@
     <string name="find_new_rides">Find new rides</string>
     <string name="book_another_ride">Book another ride</string>
     <string name="fare">Fare | $%d</string>
+    <string name="book_ambulance">Book Ambulance</string>
+    <string name="start">START</string>
 </resources>

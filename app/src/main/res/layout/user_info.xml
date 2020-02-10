@@ -36,7 +36,8 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/avatar"
         app:layout_constraintLeft_toRightOf="@+id/avatar"
-        tools:text="4.8" />
+        tools:text="4.8"
+        android:visibility="invisible"/>
 
     <RatingBar
         android:id="@+id/rating_bar"
@@ -45,6 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
         android:isIndicator="true"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@id/rating"
         app:layout_constraintLeft_toRightOf="@id/rating"
         app:layout_constraintTop_toTopOf="@id/rating" />

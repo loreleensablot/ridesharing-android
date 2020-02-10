@@ -3,8 +3,8 @@
     package="com.hypertrack.ridesharing">
 
     <application
-        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -39,7 +39,7 @@
 
         <meta-data
             android:name="com.hypertrack.sdk.PUB_KEY"
-            android:value="YOUR_PUBLISHABLE_KEY_HERE" />
+            android:value="GVbZmD6LCls9ysSZ_aqAaVf-WSINmOL77tjbQ7IIY6N_GbxDCxH_z914amnO6z2dt0sb-a5_MhXtZGL-2mk6Lw" />
 
         <meta-data
             android:name="com.google.android.gms.version"
