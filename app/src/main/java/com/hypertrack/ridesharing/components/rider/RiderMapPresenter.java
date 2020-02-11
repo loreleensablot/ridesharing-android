@@ -70,7 +70,7 @@ public class RiderMapPresenter extends MapPresenter<RiderMapPresenter.RiderView,
                 .accuracyCircle(null)
                 .bearingMarker(new MarkerOptions()
                         .anchor(0.5f, 0.5f)
-                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.car_marker_dark)))
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.ambulance_marker)))
                 .build();
     }
 

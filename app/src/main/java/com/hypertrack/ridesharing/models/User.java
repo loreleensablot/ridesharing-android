@@ -15,12 +15,6 @@ public class User implements Parcelable {
     public static final String USER_ROLE_DRIVER = "driver";
     public static final String USER_ROLE_RIDER = "rider";
 
-    //    id: String
-//    role: String (Enum driver | rider)
-//    name: String
-//    phone_number: String
-//    device_id: String
-//    car: Car
     public String id;
     public String role;
     public String name;

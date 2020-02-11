@@ -115,7 +115,7 @@ public class RiderMapFragment extends MapFragment<RiderMapPresenter> implements 
     public Marker addMarker(User driver) {
         MarkerOptions options = new MarkerOptions()
                 .anchor(0.5f, 0.5f)
-                .icon(BitmapDescriptorFactory.fromResource(R.drawable.car_marker_dark))
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.ambulance_marker))
                 .rotation(driver.location.getBearing())
                 .position(new LatLng(driver.location.getLatitude(), driver.location.getLongitude()));
         return mGoogleMap.addMarker(options);
